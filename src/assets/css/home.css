@@ -1,0 +1,39 @@
+
+.home{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+.introducao{
+    margin: 0 auto;
+    flex: 2 2 200px;
+}
+
+.introducao h1{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1;
+    padding-bottom: 30px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.introducao span{
+    background-image: linear-gradient(#9B30F9, #8844EE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+ 
+.banner-img{
+    flex: 1 2 175px;
+}
+
+.introducao p{
+    padding: 15px;
+    color: #d5ceda;
+}
